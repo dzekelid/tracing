@@ -7,14 +7,14 @@ info:
   description: Perform a traceroute to a specified target from a specified Pingdom
     probe.
   version: 1.0.0
-host: api.pingdom.com
-basePath: /
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+host: api.pingdom.com
+basePath: /
 paths:
   ? |2-
 

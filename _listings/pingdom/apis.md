@@ -7,11 +7,39 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdo
 x-kinRank: "7"
 x-alexaRank: "5876"
 tags: Tracing
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracing/master/_listings/pingdom/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Traceroute API - Make A Traceroute
+  x-api-slug: apiversiontraceroute-get
+  description: Perform a traceroute to a specified target from a specified Pingdom
+    probe.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
+  humanURL: http://www.pingdom.com
+  baseURL: https://api.pingdom.com//
+  tags: Monitoring, Performance, SaaS, Technology, internet, Service API, Relative
+    Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracing/master/_listings/pingdom/apiversiontraceroute-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracing/master/_listings/pingdom/apiversiontraceroute-get-openapi.md
+- name: Traceroute API - Make A Traceroute
+  x-api-slug: apiversiontraceroute-get
+  description: Perform a traceroute to a specified target from a specified Pingdom
+    probe.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
+  humanURL: http://www.pingdom.com
+  baseURL: https://api.pingdom.com//
+  tags: Monitoring, Performance, SaaS, Technology, internet, Service API, Relative
+    Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracing/master/_listings/pingdom/apiversiontraceroute-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracing/master/_listings/pingdom/apiversiontraceroute-get-openapi.md
 - name: Traceroute API - Make A Traceroute
   x-api-slug: apiversiontraceroute-get
   description: Perform a traceroute to a specified target from a specified Pingdom

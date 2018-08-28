@@ -8,11 +8,35 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: ""
 tags: Tracing
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracing/master/_listings/gitlab/apis.md
 specificationVersion: "0.14"
 apis:
+- name: API title - Get Projects Builds Build Trace
+  x-api-slug: v3projectsidbuildsbuild-idtrace-get
+  description: Get a trace of a specific build of a project
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png
+  humanURL: http://gitlab.com
+  baseURL: https://localhost:3000//api
+  tags: Orchestration, Code, Static, Versions, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracing/master/_listings/gitlab/v3projectsidbuildsbuild-idtrace-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracing/master/_listings/gitlab/v3projectsidbuildsbuild-idtrace-get-openapi.md
+- name: API title - Get Projects Builds Build Trace
+  x-api-slug: v3projectsidbuildsbuild-idtrace-get
+  description: Get a trace of a specific build of a project
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png
+  humanURL: http://gitlab.com
+  baseURL: https://localhost:3000//api
+  tags: Orchestration, Code, Static, Versions, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracing/master/_listings/gitlab/v3projectsidbuildsbuild-idtrace-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracing/master/_listings/gitlab/v3projectsidbuildsbuild-idtrace-get-openapi.md
 - name: API title - Get Projects Builds Build Trace
   x-api-slug: v3projectsidbuildsbuild-idtrace-get
   description: Get a trace of a specific build of a project

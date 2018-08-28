@@ -13,8 +13,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Tracing
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracing/master/_listings/aws-xray/apis.md
 specificationVersion: "0.14"
 apis:
@@ -76,6 +76,32 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracing/master/_listings/aws-xray/actiongettracesummaries-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracing/master/_listings/aws-xray/actiongettracesummaries-get-openapi.md
+- name: AWS X-Ray API - Put Trace Segments
+  x-api-slug: actionputtracesegments-get
+  description: Uploads segment documents to AWS X-Ray.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-xray.png
+  humanURL: https://aws.amazon.com/xray/
+  baseURL: :///
+  tags: Amazon Web Services, Monitoring, Testing, Orchestration, Stack Network, API
+    Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracing/master/_listings/aws-xray/actionputtracesegments-get-openapi.md
+- name: AWS X-Ray API - Batch Get Traces
+  x-api-slug: actionbatchgettraces-get
+  description: Retrieves a list of traces specified by ID.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-xray.png
+  humanURL: https://aws.amazon.com/xray/
+  baseURL: :///
+  tags: Amazon Web Services, Monitoring, Testing, Orchestration, Stack Network, API
+    Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracing/master/_listings/aws-xray/actionbatchgettraces-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracing/master/_listings/aws-xray/actionbatchgettraces-get-openapi.md
 - name: AWS X-Ray API - Batch Get Traces
   x-api-slug: actionbatchgettraces-get
   description: Retrieves a list of traces specified by ID.

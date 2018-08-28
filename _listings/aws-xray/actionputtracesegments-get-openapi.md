@@ -3,9 +3,9 @@ swagger: "2.0"
 x-collection-name: AWS X-Ray
 x-complete: 0
 info:
-  title: AWS X-Ray API Batch Get Traces
+  title: AWS X-Ray API Put Trace Segments
   version: 1.0.0
-  description: Retrieves a list of traces specified by ID.
+  description: Uploads segment documents to AWS X-Ray.
 schemes:
 - http
 produces:
